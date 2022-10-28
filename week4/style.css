@@ -1,0 +1,37 @@
+body{
+    background-color: black;
+    height: 100vh;
+}
+main{
+    display: grid;
+    grid-template-areas: 'a a b' 'c d d' 'c e e';
+    width: 40%;
+    height: 50vh;
+    margin: auto;
+    gap:15px;
+    margin-top: 20%;
+    
+}
+.item1{
+    grid-area:a ;
+    background-color:orangered ;
+}
+.item2{
+    grid-area: b;
+    background-color:orange ;
+}
+.item3{
+    grid-area:c ;
+    background-color: green;
+}
+.item4{
+    grid-area:d ;
+    background-color:rgb(29, 128, 216) ;
+}
+.item5{
+    grid-area:e ;
+    background-color:rgb(29, 128, 216) ;
+}
+div{
+    height: auto;
+}
